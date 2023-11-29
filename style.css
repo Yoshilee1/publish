@@ -1,0 +1,126 @@
+.home-photo{
+		   float: right;
+		   max-width: 50%;
+		   height: auto;
+		   margin: 15px 0 50px 50px;
+}
+
+.portfolio{
+		  max-width: 100%;
+}
+
+.resume{
+	   max-width: 100%;
+}
+
+.game-controls{
+							text-align: center;
+							border-radius: 20px;
+}
+
+html{
+	border: 5px solid gold;
+}
+
+header{
+	text-align: center;
+	font-family: 'Monstserrat', sans-serif;
+	border-top: 10px solid #014B62;
+	border-bottom: 10px solid #014B62;
+	border-right: 10px solid #014B62 ;
+	border-left: 10px solid #014B62;
+	background-color: deepskyblue;
+}
+
+header a{
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	color: green;
+}
+
+h2{
+  text-align: center;
+  color: crimson;
+}
+
+h3{
+	color: royalblue;
+}
+
+main{
+	border: 5px solid black;
+	color: purple;
+	text-align: center;
+	max-width: 1200px;
+}
+
+nav{
+	text-align: center;
+	letter-spacing: 5px;
+	text-decoration: none;
+	background-color: crimson;
+	border-top: 10px solid red;
+	border-bottom: 10px solid red;
+	border-right: 10px solid red;
+	border-left: 10px solid red;
+}
+
+
+nav ul{
+      padding: .5em 1em .5em 1em;
+      width: 100%;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav a:link{
+          color: white;
+}
+
+nav a:visited{
+             color: white;
+}
+
+nav a:hover{
+           color: royalblue;
+}
+
+nav a:active{
+            color: #000000;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 2048px) {
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    width: 90%;
+    background-color: white;
+}
+.home-photo{
+	max-height: 330px;
+}
+}
